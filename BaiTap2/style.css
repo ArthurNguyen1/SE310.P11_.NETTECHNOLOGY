@@ -1,0 +1,81 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2fa1b3;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        font-family: sans-serif;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-right-style: solid;
+        border-color: white;
+        border-width: 1px;
+    }
+
+    .topnav button {
+        border-radius: 15px;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        align-self: center;
+        margin-top: 1%;
+        color: white;
+        background-color: #2fa1b3;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #2b94a5;
+        color: white;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #2b94a5;
+        color: white;
+    }
+
+.listTin {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    width: auto;
+    gap: 5px;
+}
+
+.small_news_image {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.small_news_title {
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-right: 2%;
+}
+
+.big_news_image {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.big_news_title {
+    padding-left: 3%;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-right: 3%;
+}
+
+
+.triplet_honzo_news {
+    height: 210;
+    width: 100%;
+    background-color: white
+}
